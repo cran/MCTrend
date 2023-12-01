@@ -1,0 +1,46 @@
+---
+title: "Monte Carlo time series trend analysis"
+author: "Alonso Arriagadada M.  <alonso.arriagada@usach.cl>"
+date: "29-11-2023"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Monte Carlo time series trend analysis}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+R package to apply Monte Carlo time series trend analysis, based on Ricchetti (Ricchetti, 2018). It generates a dataframe with numerical results and a plot to visualize results.
+
+## Requirements
+Dependencies: trend, reshape2, ggplot2, magrittr, lmomco, dplyr
+
+## Installation
+You can install the development version of MCTrend from GitHub with this R command:
+```{r setup,eval = FALSE}
+# install.packages("remotes")
+remotes::install_github("Alobondo/MCTrend")
+library(MCTrend)
+```
+
+## Usage
+Functions | Description |
+--- | --- |
+```MCTrend(x, n_rep, plot_title, int = 0.25, opt)``` | Apply Monte Carlo time series trend analysis. |
+
+Parameters | Description |
+--- | --- |
+```x``` | A data frame containing the input data. The first row expected to contain model names or time series names.. |
+```n_rep``` | Number of replications for the Monte Carlo simulation. |
+```plot_title``` | Title for the plot. |
+```int``` | Number indicating lower threshold value of the interval within which no trend is defined, the upper value is calculated based on this value, by default a lower value of 0.25 is considered. |
+```opt``` | A number indicating type of results, for opt = 1 returns test result, opt = 2 returns plot. |
+
+## File for example
+To download a file with the reference format follow this path: https://github.com/Alobondo/Trend_and_Stationarity_Tests/raw/main/PP_T%26S_test.xlsx

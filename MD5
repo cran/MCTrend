@@ -1,0 +1,13 @@
+da3b6ea4cd5029f4e6833e5b4363f94a *DESCRIPTION
+1ed938b9aac68e95b567b0358431b501 *NAMESPACE
+d14c842fbbd7f80b48a8d0ced07fcb66 *R/MCTrend.R
+d1362bb595ccd3c4ea869a6bb8ae505c *R/example.R
+17700f4662cdc2b9eea9099f8214563a *build/vignette.rds
+ffe59a1c6dbee7ae512a6685f562fbfe *data/example.rda
+3c41531d5078eab0641d8d8076e7376e *inst/doc/MCTrend.R
+435a326e36c8d63597090dec9074c989 *inst/doc/MCTrend.Rmd
+b2793490774eb14d3f391be9ed37c9bd *inst/doc/MCTrend.html
+5c4cdab1a9943700837caa35dd66d434 *man/MCTrend.Rd
+1b551df59161804aa8d9b841bcee76a0 *man/example.Rd
+10ec419c5e3d016a29393333d868ac65 *man/figures/MC_Trend_logo.png
+435a326e36c8d63597090dec9074c989 *vignettes/MCTrend.Rmd
